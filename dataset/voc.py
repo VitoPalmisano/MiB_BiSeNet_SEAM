@@ -158,7 +158,6 @@ class VOCSegmentationIncremental(data.Dataset):
         
 
         if labels is not None:
-            print("Labels is not None")
             # store the labels
             labels_old = labels_old if labels_old is not None else []
 
